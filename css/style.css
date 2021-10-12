@@ -98,9 +98,9 @@ nav a{
 .container{
   /* Requirement 5 code here*/
   display: grid;
-  grid-template-rows: all auto;
+  grid-template-rows: auto auto auto auto auto;
   grid-template-columns: 1fr 5fr 1fr;
-  row-gap: 15px;
+  grid-row-gap: 15px;
 }
 
 /* Remainder of requirements here: */
