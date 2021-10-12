@@ -96,7 +96,7 @@ nav a{
 
 
 .container{
-  /* Requirement 5 code here*/
+  /* Requirement 5 code hereStr*/
   display: grid;
   grid-template-rows: auto auto auto auto auto;
   grid-template-columns: 1fr 5fr 1fr;
@@ -115,7 +115,8 @@ header{
   height: 400px; /* Parallax effect */
   /* YOUR CODE HERE; */
   column-span: all;
-  grid-row: 1 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
   background-repeat: no repeat
 
 }
