@@ -84,6 +84,7 @@ nav a{
 /* Requirement 3b code here*/
 .skip a:focus{
   position: absolute;
+  top:0px;
 }
 
 /* Requirement 4 code here*/
@@ -118,7 +119,7 @@ header{
 }
 
 .about-image{
-  column-span: all;
+  grid-column: 1 / -1;
   max-height: 700px;
   overflow: hidden;
   grid-row: 2 / span 1;
@@ -173,7 +174,8 @@ header{
   padding: 30px;
 
   /* Your code here */
-  text-align: center;
+  text-align: left;
+  vertical-align: middle;
 
 
 }
