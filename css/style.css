@@ -80,7 +80,7 @@ nav a{
 
   /* Requirement 3a code here*/
   position: relative;
-  top: 40px;
+  top: -40px;
 }
 
 /* Requirement 3b code here*/
