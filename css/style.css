@@ -77,14 +77,14 @@ nav a{
   z-index: 1;
 
   /* Requirement 3a code here*/
-  position: relative;
+  position: absolute;
   top: -40px;
 }
 
 /* Requirement 3b code here*/
 .skip a:focus{
-  position: relative;
-  top: 10px;  
+  position: absolute;
+  top: 0px; 
 }
 
 /* Requirement 4 code here*/
@@ -112,7 +112,7 @@ header{
   height: 400px; /* Parallax effect */
   
   /* YOUR CODE HERE; */
-  text-align: center;
+
   grid-column: 1 / -1;
   grid-row: 1 / span 1;
   
@@ -127,7 +127,6 @@ header{
 }
 
 .about{
- text-align: left;
  margin: auto;
  grid-column: 2 / span 1;
  grid-row: 2 / span 1;
@@ -141,7 +140,6 @@ header{
 }
 
 .method{
-  text-align: left;
   margin: auto;
   grid-column: 2 / span 1;
   grid-row: 3 / span 1;
@@ -155,7 +153,6 @@ header{
 }
 
 .clients{
-  text-align: left;
   margin: auto;
   grid-column: 2 / span 1;
   grid-row: 4 / span 1;
@@ -169,7 +166,6 @@ header{
 }
 
 .contact{
-  text-align: left;
   margin: auto;
   grid-column: 2 / span 1;
   grid-row: 5 / span 1;
@@ -182,7 +178,8 @@ header{
   padding: 30px;
 
   /* Your code here */
-  text-align: left;
+  align-self: center;
+  
 }
 
 @media screen and (min-width: 800px){
@@ -203,7 +200,6 @@ header{
   }
 
   .about{
-    text-align: left;
     margin: auto;
     grid-column: 3 / span 2;
   }
@@ -213,7 +209,6 @@ header{
   }
 
   .method{
-    text-align: left;
     margin: auto;
     grid-column: 2 / span 2;
   }
@@ -223,7 +218,6 @@ header{
   }
 
   .clients{
-    text-align: left;
     margin: auto;
     grid-column: 3 / span 2;
   }
@@ -233,7 +227,6 @@ header{
   }
 
   .contact{
-    text-align: left;
     margin: auto;
     grid-column: 2 / span 2;
   }
