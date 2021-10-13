@@ -86,7 +86,6 @@ nav a{
 /* Requirement 3b code here*/
 .skip a:focus{
   position: absolute;
-  top: 0px;
 }
 
 /* Requirement 4 code here*/
@@ -98,7 +97,7 @@ nav a{
 .container{
   /* Requirement 5 code hereStr*/
   display: grid;
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-rows: repeat(5, auto);
   grid-template-columns: 1fr 5fr 1fr;
   grid-row-gap: 15px;
 }
@@ -107,20 +106,18 @@ nav a{
 
 header{
   background-image: url('../images/header.jpg');
-
+  background-repeat: none;
   background-attachment: fixed; /* Parallax effect */
   background-position: center; /* Parallax effect */
   background-size: cover; /* Parallax effect */
   color: white;
   height: 400px; /* Parallax effect */
+  
+  grid-column: 1 / -1;
+  grid-row: 1 / span 1;
   /* YOUR CODE HERE; */
-  column-span: all;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  background-repeat: no repeat
-
+  
 }
-
 
 
 .about-image{
@@ -137,7 +134,7 @@ header{
 }
 
 .method-image{
-  column-span: all;
+  grid-column: 1 / -1;
   max-height: 700px;
   overflow: hidden;
   grid-row: 3 / span 1;
@@ -149,7 +146,7 @@ header{
 }
 
 .clients-image{
-  column-span: all;
+  grid-column: 1 / -1;
   max-height: 700px;
   overflow: hidden;
   grid-row: 4 / span 1;
@@ -161,7 +158,7 @@ header{
 }
 
 .contact-image{
-  column-span: all;
+  grid-column: 1 / -1;
   max-height: 700px;
   overflow: hidden;
   grid-row: 5 / span 1;
@@ -173,8 +170,6 @@ header{
 }
 /* You need to write some of your own selectors here */
 
-
-
 .text-block{
   background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
@@ -182,7 +177,7 @@ header{
 
   /* Your code here */
   text-align: center;
-  vertical-align: middle;
+
 
 }
 
@@ -190,47 +185,7 @@ header{
   nav{
     padding: 30px 0;
     /* Your code here */
-    text-align: right;
   }
-
-  .container{
-   grid-template-columns: 50px auto 500px auto 50px;
-   grid-template-rows: 400px 400px 400px 400px 400px
-  }
-
-  
-  .about-image{
-    grid-column: 2 / span 2;
-  }
-
-  .about{
-    grid-column: 3 / span 2;
-  }
-
-  .method-image{
-    grid-column: 3 / span 2;
-  }
-
-  .method{
-    grid-column: 2 / span 2;
-  }
-
-  .clients-image{
-    grid-column: 2 / span 2;
-  }
-
-  .clients{
-    grid-column: 3 / span 2;
-  }
-
-  .contact-image{
-    grid-column: 3 / span 2;
-  }
-
-  .contact{
-    grid-column: 2 / span 2;
-  }
-
 }
 
 
