@@ -188,9 +188,52 @@ header{
   nav{
     padding: 30px 0;
     /* Your code here */
+    text-align: right;
   }
-}
 
+  .container{
+   grid-template-columns: 50px auto 500px auto 50px;
+   grid-template-rows: repeat(5, 400px);
+  }
+
+  
+  .about-image{
+    grid-column: 2 / span 2;
+  }
+
+  .about{
+    margin: auto;
+    grid-column: 3 / span 2;
+  }
+
+  .method-image{
+    grid-column: 3 / span 2;
+  }
+
+  .method{
+    margin: auto;
+    grid-column: 2 / span 2;
+  }
+
+  .clients-image{
+    grid-column: 2 / span 2;
+  }
+
+  .clients{
+    margin: auto;
+    grid-column: 3 / span 2;
+  }
+
+  .contact-image{
+    grid-column: 3 / span 2;
+  }
+
+  .contact{
+    margin: auto;
+    grid-column: 2 / span 2;
+  }
+
+}
 
 /** Code for prefers reduced motion **/
 /* Make no changes below this line.
