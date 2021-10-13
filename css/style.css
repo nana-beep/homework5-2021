@@ -86,6 +86,7 @@ nav a{
 /* Requirement 3b code here*/
 .skip a:focus{
   position: absolute;
+  top: 0px;
 }
 
 /* Requirement 4 code here*/
