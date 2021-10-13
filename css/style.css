@@ -4,7 +4,7 @@ html{
 }
 
 body{
-  background-color: #737373 !important;
+  background-color: #737373;
   font-size: 18px;
   margin: 0;
   padding: 0;
@@ -32,7 +32,7 @@ nav li{
 }
 
 nav{
-  background-color: #ddd !important;
+  background-color: #ddd;
   padding: 25px 0;    
   text-align: left;   
 }
@@ -45,7 +45,7 @@ header p{
 }
 
 footer{
-  background-color: black !important;
+  background-color: black;
   color: white;
   padding-top: 30px;
   text-align: center;
@@ -103,10 +103,10 @@ nav a{
 /* Remainder of requirements here: */
 
 header{
-  background: url('../images/header.jpg') no-repeat !important;
-  background-attachment: fixed !important; /* Parallax effect */
+  background: url('../images/header.jpg') no-repeat;
+  background-attachment: fixed; /* Parallax effect */
   background-position: center; /* Parallax effect */
-  background-size: cover !important; /* Parallax effect */
+  background-size: cover; /* Parallax effect */
   color: white;
   height: 400px; /* Parallax effect */
   
