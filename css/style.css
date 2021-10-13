@@ -127,6 +127,7 @@ header{
 }
 
 .about{
+ margin: auto;
  grid-column: 2 / span 1;
  grid-row: 2 / span 1;
 }
@@ -139,6 +140,7 @@ header{
 }
 
 .method{
+  margin: auto;
   grid-column: 2 / span 1;
   grid-row: 3 / span 1;
 }
@@ -151,6 +153,7 @@ header{
 }
 
 .clients{
+  margin: auto;
   grid-column: 2 / span 1;
   grid-row: 4 / span 1;
 }
@@ -163,6 +166,7 @@ header{
 }
 
 .contact{
+  margin: auto;
   grid-column: 2 / span 1;
   grid-row: 5 / span 1;
 }
