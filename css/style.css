@@ -79,14 +79,14 @@ nav a{
   z-index: 1;
 
   /* Requirement 3a code here*/
-  position: absolute;
+  position: relative;
   top: -40px;
 }
 
 /* Requirement 3b code here*/
 .skip a:focus{
   position: absolute;
-  top: 0;
+  top: 0px;
 }
 
 /* Requirement 4 code here*/
